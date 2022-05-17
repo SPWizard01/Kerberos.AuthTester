@@ -589,7 +589,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(125, 20);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Version 0.9.3 beta";
+            this.label2.Text = "Version 0.9.4 beta";
             // 
             // label1
             // 

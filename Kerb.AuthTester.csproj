@@ -7,6 +7,8 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <PlatformTarget>AnyCPU</PlatformTarget>
+    <Description>Originally Created by Michel Barneveld (http://blog.michelbarneveld.nl)
+Ported by SPWizard (https://github.com/spwizard01)</Description>
   </PropertyGroup>
 
   <ItemGroup>
