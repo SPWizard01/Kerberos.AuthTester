@@ -1,6 +1,6 @@
 ﻿using Kerb.AuthTester.Models;
-using Kerb.AuthTester.Utilities.Win32;
-using Kerb.AuthTester.Win32.Structures;
+using Kerb.AuthTester.NativeWin32;
+using Kerb.AuthTester.NativeWin32.Structures;
 using System.Runtime.InteropServices;
 using System.Text;
 

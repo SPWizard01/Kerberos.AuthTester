@@ -16,7 +16,7 @@ namespace Kerb.AuthTester
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("http://mbar.nl/default.aspx?kat0.9.3");
+            Process.Start(new ProcessStartInfo { UseShellExecute = true, FileName = "http://mbar.nl/default.aspx?kat0.9.3" });
         }
 
         private void cbxProxy_CheckedChanged(object sender, EventArgs e)
@@ -141,7 +141,7 @@ namespace Kerb.AuthTester
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://github.com/spwizard01");
+            Process.Start(new ProcessStartInfo { UseShellExecute = true, FileName = "https://github.com/spwizard01" });
         }
     }
 }

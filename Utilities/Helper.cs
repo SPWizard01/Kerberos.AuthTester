@@ -1,4 +1,4 @@
-﻿using Kerb.AuthTester.Win32.Structures;
+﻿using Kerb.AuthTester.NativeWin32.Structures;
 using System;
 using System.Collections.Generic;
 using System.Linq;

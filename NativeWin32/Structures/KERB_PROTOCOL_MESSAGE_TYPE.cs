@@ -1,0 +1,96 @@
+﻿namespace Kerb.AuthTester.NativeWin32.Structures
+{
+    public enum KERB_PROTOCOL_MESSAGE_TYPE_GGF
+    {
+        KerbDebugRequestMessage,
+        KerbQueryTicketCacheMessage,
+        KerbChangeMachinePasswordMessage,
+        KerbVerifyPacMessage,
+        KerbRetrieveTicketMessage,
+        KerbUpdateAddressesMessage,
+        KerbPurgeTicketCacheMessage,
+        KerbChangePasswordMessage,
+        KerbRetrieveEncodedTicketMessage,
+        KerbDecryptDataMessage,
+        KerbAddBindingCacheEntryMessage,
+        KerbSetPasswordMessage
+    }
+
+    //https://docs.microsoft.com/en-us/windows/win32/api/ntsecapi/ne-ntsecapi-kerb_protocol_message_type
+    public enum KERB_PROTOCOL_MESSAGE_TYPE_GG
+    {
+        KerbDebugRequestMessage = 0,
+        KerbQueryTicketCacheMessage,
+        KerbChangeMachinePasswordMessage,
+        KerbVerifyPacMessage,
+        KerbRetrieveTicketMessage,
+        KerbUpdateAddressesMessage,
+        KerbPurgeTicketCacheMessage,
+        KerbChangePasswordMessage,
+        KerbRetrieveEncodedTicketMessage,
+        KerbDecryptDataMessage,
+        KerbAddBindingCacheEntryMessage,
+        KerbSetPasswordMessage,
+        KerbSetPasswordExMessage,
+        KerbAddExtraCredentialsMessage = 17,
+        KerbQueryTicketCacheExMessage,
+        KerbPurgeTicketCacheExMessage,
+        KerbRefreshSmartcardCredentialsMessage,
+        KerbAddExtraCredentialsMessageUnk = 17,
+        KerbQuerySupplementalCredentialsMessage,
+        KerbTransferCredentialsMessage,
+        KerbQueryTicketCacheEx2Message,
+        KerbSubmitTicketMessage,
+        KerbAddExtraCredentialsExMessage,
+        KerbQueryKdcProxyCacheMessage,
+        KerbPurgeKdcProxyCacheMessage,
+        KerbQueryTicketCacheEx3Message,
+        KerbCleanupMachinePkinitCredsMessage,
+        KerbAddBindingCacheEntryExMessage,
+        KerbQueryBindingCacheMessage,
+        KerbPurgeBindingCacheMessage,
+        KerbPinKdcMessage,
+        KerbUnpinAllKdcsMessage,
+        KerbQueryDomainExtendedPoliciesMessage,
+        KerbQueryS4U2ProxyCacheMessage,
+        KerbRetrieveKeyTabMessage,
+        KerbRefreshPolicyMessage,
+        KerbPrintCloudKerberosDebugMessage
+    }
+
+    public enum KERB_PROTOCOL_MESSAGE_TYPE
+    {
+        KerbDebugRequestMessage = 0,
+        KerbQueryTicketCacheMessage = 1,
+        KerbChangeMachinePasswordMessage = 2,
+        KerbVerifyPacMessage = 3,
+        KerbRetrieveTicketMessage = 4,
+        KerbUpdateAddressesMessage = 5,
+        KerbPurgeTicketCacheMessage = 6,
+        KerbChangePasswordMessage = 7,
+        KerbRetrieveEncodedTicketMessage = 8,
+        KerbDecryptDataMessage = 9,
+        KerbAddBindingCacheEntryMessage = 10,
+        KerbSetPasswordMessage = 11,
+        KerbSetPasswordExMessage = 12,
+        KerbVerifyCredentialsMessage = 13,
+        KerbQueryTicketCacheExMessage = 14,
+        KerbPurgeTicketCacheExMessage = 15,
+        KerbRefreshSmartcardCredentialsMessage = 16,
+        KerbAddExtraCredentialsMessage = 17,
+        KerbQuerySupplementalCredentialsMessage = 18,
+        KerbTransferCredentialsMessage = 19,
+        KerbQueryTicketCacheEx2Message = 20,
+        KerbSubmitTicketMessage = 21,
+        KerbAddExtraCredentialsExMessage = 22,
+        KerbQueryKdcProxyCacheMessage = 23,
+        KerbPurgeKdcProxyCacheMessage = 24,
+        KerbQueryTicketCacheEx3Message = 25,
+        KerbCleanupMachinePkinitCredsMessage = 26,
+        KerbAddBindingCacheEntryExMessage = 27,
+        KerbQueryBindingCacheMessage = 28,
+        KerbPurgeBindingCacheMessage = 29,
+        KerbQueryDomainExtendedPoliciesMessage = 30,
+        KerbQueryS4U2ProxyCacheMessage = 31
+    }
+}
