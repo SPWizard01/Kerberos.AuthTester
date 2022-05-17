@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="LCLib.Asn1Processor\**" />
+    <Compile Remove="LipingShare.LCLib.Asn1Processor\**" />
+    <EmbeddedResource Remove="LCLib.Asn1Processor\**" />
+    <EmbeddedResource Remove="LipingShare.LCLib.Asn1Processor\**" />
+    <None Remove="LCLib.Asn1Processor\**" />
+    <None Remove="LipingShare.LCLib.Asn1Processor\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Authorization\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="LCLib.Asn1Processor\LCLib.Asn1Processor.csproj" />
+    <ProjectReference Include="LipingShare.LCLib.Asn1Processor\LipingShare.LCLib.Asn1Processor.csproj" />
+  </ItemGroup>
+
+</Project>
